@@ -15,4 +15,4 @@ if (process.env.NODE_ENV === "production") {
   prisma = global.cachedPrisma
 }
 
-export { prisma as db}
+export { prisma as db }
